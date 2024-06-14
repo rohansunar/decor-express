@@ -1,0 +1,16 @@
+### Options
+Send Request
+OPTIONS http://localhost:3000
+
+### Healthcheck
+Send Request
+GET  http://localhost:3000/healthcheck
+
+### Healthcheck
+Send Request
+POST  http://localhost:3000/healthcheck
+Content-Type: application/json
+{
+    "name":"Rohan",
+    "email":"rohan@drivio.com"
+}
